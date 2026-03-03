@@ -20,5 +20,7 @@ public class ex16 {
         System.out.println("Divisor: " + divisor);
         System.out.println("Quociente: " + quotient);
         System.out.println("Resto: " + remainder);
+
+        scanner.close();
     }
 }

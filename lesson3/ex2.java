@@ -16,5 +16,7 @@ public class ex2 {
 
         double area = base * height;
         System.out.println("A área do retângulo é: " + area);
+        
+        scanner.close();
     }
 }

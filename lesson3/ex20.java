@@ -22,5 +22,7 @@ public class ex20 {
         double thirdCathetus = Math.sqrt(Math.pow(firstCathetus, 2) + Math.pow(secondCathetus, 2) - 2 * firstCathetus * secondCathetus * Math.cos(angleInRadians));
 
         System.out.println("O terceiro lado do triângulo é: " + thirdCathetus);
+
+        scanner.close();
     }
 }

@@ -18,5 +18,7 @@ public class ex12 {
         System.out.println("Dia: " + day);
         System.out.println("Mês: " + month);
         System.out.println("Ano: " + year);
+
+        scanner.close();
     }
 }

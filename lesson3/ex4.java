@@ -18,5 +18,7 @@ public class ex4 {
 
         int length = firstString.length() + secondString.length() + thirdString.length();
         System.out.println("A soma do comprimento das strings é: " + length);
+
+        scanner.close();
     }
 }

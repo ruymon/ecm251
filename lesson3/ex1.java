@@ -16,5 +16,7 @@ public class ex1 {
         int daysAlive = age * DAYS_IN_YEAR;
         
         System.out.println("Você está vivo há " + daysAlive + " dias.");
+        
+        scanner.close();
     }
 }

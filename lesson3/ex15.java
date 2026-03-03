@@ -14,5 +14,7 @@ public class ex15 {
 
         double area = Math.PI * Math.pow(radius, 2);
         System.out.println("A área do círculo é: " + area);
+
+        scanner.close();
     }
 }

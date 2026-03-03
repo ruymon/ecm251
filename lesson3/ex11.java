@@ -37,5 +37,7 @@ public class ex11 {
 
         System.out.println("A frase original é: " + firstSentence + " " + secondSentence + " " + thirdSentence);
         System.out.println("A frase embaralhada é: " + shuffledSentence);
+
+        scanner.close();
     }
 }

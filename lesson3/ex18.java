@@ -15,5 +15,7 @@ public class ex18 {
 
         double area = (base * height) / 2;
         System.out.println("A área do triângulo é: " + area);
+
+        scanner.close();
     }
 }

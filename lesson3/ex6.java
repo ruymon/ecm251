@@ -28,5 +28,7 @@ public class ex6 {
         double finalValue = initialValue * Math.pow(1 + interestRate / 100, months);
         
         System.out.println("O valor final da dívida é: " + finalValue);
+
+        scanner.close();
     }
 }

@@ -17,5 +17,7 @@ public class ex17 {
         System.out.println("Número: " + number);
         System.out.println("Quadrado: " + square);
         System.out.println("Raiz quadrada: " + squareRoot);
+
+        scanner.close();
     }
 }

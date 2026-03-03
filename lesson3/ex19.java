@@ -15,5 +15,7 @@ public class ex19 {
 
         double area = (majorDiagonal * minorDiagonal) / 2;
         System.out.println("A área do losango é: " + area);
+
+        scanner.close();
     }
 }

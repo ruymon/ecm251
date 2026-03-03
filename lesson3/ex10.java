@@ -17,5 +17,7 @@ public class ex10 {
         double logarithm = Math.log(number) / Math.log(base);
         
         System.out.println("O logaritmo do número é: " + logarithm);
+
+        scanner.close();
     }
 }

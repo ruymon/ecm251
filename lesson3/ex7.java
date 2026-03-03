@@ -14,5 +14,7 @@ public class ex7 {
         int tensDigit = number % 100 / 10;
     
         System.out.println("O algarismo correspondente à casa da dezena é: " + tensDigit);
+
+        scanner.close();
     }
 }

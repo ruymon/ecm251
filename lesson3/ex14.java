@@ -19,5 +19,7 @@ public class ex14 {
 
         double x = 2 * ((a - c) / 8) - b * 5;
         System.out.println("O valor de x é: " + x);
+
+        scanner.close();
     }
 }

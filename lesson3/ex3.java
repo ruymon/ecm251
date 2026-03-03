@@ -15,5 +15,7 @@ public class ex3 {
         double squared = Math.pow(number, 2);
 
         System.out.println("O quadrado do número é: " + squared);
+
+        scanner.close();
     }
 }

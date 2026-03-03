@@ -25,5 +25,7 @@ public class ex8 {
         System.out.println("A secante do ângulo é: " + secant);
         System.out.println("A cossecante do ângulo é: " + cosecant);
         System.out.println("A cotangente do ângulo é: " + cotangent);
+
+        scanner.close();
     }
 }

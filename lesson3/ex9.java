@@ -12,5 +12,7 @@ public class ex9 {
 
         double logarithm = Math.log10(number);
         System.out.println("O logaritmo do número é: " + logarithm);
+
+        scanner.close();
     }
 }
