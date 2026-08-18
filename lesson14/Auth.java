@@ -20,7 +20,7 @@ public class Auth {
     }
 
     private Session findUser(Connection connection, String username, String password) throws SQLException {
-        String sql = "SELECT id, name, username, last_accessed_at FROM users"
+        String sql = "SELECT id, name, username, grade, absences, last_accessed_at FROM users"
                 + " WHERE username = ? AND password = ?";
         try (PreparedStatement statement = connection.prepareStatement(sql)) {
             statement.setString(1, username);
@@ -33,6 +33,8 @@ public class Auth {
                         UUID.fromString(result.getString("id")),
                         result.getString("name"),
                         result.getString("username"),
+                        result.getDouble("grade"),
+                        result.getInt("absences"),
                         readDate(result, "last_accessed_at"));
             }
         }
