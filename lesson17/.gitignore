@@ -1,0 +1,7 @@
+**/*.class
+**/chave.dummy
+**/chave.simetrica
+**/chave.publica
+**/chave.privada
+**/texto_cifrada.txt
+**/texto_decifrado.txt

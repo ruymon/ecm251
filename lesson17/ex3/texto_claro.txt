@@ -1,0 +1,3 @@
+Criptografia em Java — Exercício 3
+Este algoritmo usa uma chave, XOR, rotação de bits e inversão da ordem.
+A decifração deve recuperar acentos como ação, coração e São Paulo.
